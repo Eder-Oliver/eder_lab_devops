@@ -26,4 +26,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ehsoliveira83/cicd-lab-fia, ehsoliveira83/cicd-lab-fia:${{ github.run_number }}
+          tags: ehsoliveira83/cicd-lab-fia:tagname, ehsoliveira83/cicd-lab-fia:tagname${{ github.run_number }}
